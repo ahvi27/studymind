@@ -1,0 +1,65 @@
+Computer Science Notes - Data Structures and Algorithms
+
+Introduction to Data Structures
+
+A data structure is a way of organizing data in a computer so it can be used efficiently. Common data structures include arrays, linked lists, stacks, queues, trees, and graphs.
+
+Arrays
+- Fixed-size collection of elements stored in contiguous memory
+- Access time: O(1) for index access
+- Insert/delete at arbitrary position: O(n)
+
+Linked Lists
+- Nodes connected by pointers
+- Singly linked: each node points to next
+- Doubly linked: each node points to next and previous
+- Insert/delete at known position: O(1)
+- Search: O(n)
+
+Stacks (LIFO - Last In First Out)
+Operations: push, pop, peek
+Applications: undo functionality, expression evaluation, DFS
+
+Queues (FIFO - First In First Out)
+Operations: enqueue, dequeue
+Applications: BFS, task scheduling, print queues
+
+Trees
+Binary Search Tree (BST):
+- Left child < parent < right child
+- Search, insert, delete: O(log n) average, O(n) worst
+
+Balanced trees (AVL, Red-Black) maintain O(log n) operations.
+
+Graphs
+Vertices (nodes) connected by edges.
+Representations: adjacency matrix O(V^2) space, adjacency list O(V+E) space.
+
+Sorting Algorithms
+
+Bubble Sort: O(n^2) time, O(1) space - simple but inefficient
+Merge Sort: O(n log n) time, O(n) space - stable, divide and conquer
+Quick Sort: O(n log n) average, O(n^2) worst - in-place, commonly used
+Heap Sort: O(n log n) time, O(1) space
+
+Search Algorithms
+
+Linear Search: O(n) - check each element
+Binary Search: O(log n) - requires sorted array
+
+Big O Notation summarizes algorithm efficiency:
+- O(1): constant time
+- O(log n): logarithmic
+- O(n): linear
+- O(n log n): linearithmic
+- O(n^2): quadratic
+- O(2^n): exponential
+
+Hash Tables
+Use a hash function to map keys to array indices.
+Average case: O(1) for insert, delete, search.
+Handle collisions with chaining or open addressing.
+
+Dynamic Programming
+Break problems into overlapping subproblems and store results to avoid recomputation.
+Examples: Fibonacci, knapsack problem, longest common subsequence.

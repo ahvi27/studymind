@@ -1,0 +1,1 @@
+"""StudyMind backend application package."""

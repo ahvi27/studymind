@@ -1,0 +1,48 @@
+Biology Study Notes - Cell Structure and Function
+
+Chapter 1: Introduction to Cells
+
+All living organisms are composed of cells. Cells are the basic unit of life. There are two main types of cells:
+1. Prokaryotic cells - lack a nucleus (bacteria)
+2. Eukaryotic cells - have a nucleus (plants, animals, fungi)
+
+The cell membrane is a phospholipid bilayer that controls what enters and exits the cell. It contains proteins that act as channels, pumps, and receptors.
+
+The nucleus contains DNA and controls cell activities. The nucleolus produces ribosomes.
+
+Mitochondria are the powerhouse of the cell. They produce ATP through cellular respiration. The equation is:
+C6H12O6 + 6O2 -> 6CO2 + 6H2O + ATP
+
+The endoplasmic reticulum (ER) comes in two forms:
+- Rough ER: has ribosomes, synthesizes proteins
+- Smooth ER: synthesizes lipids, detoxifies drugs
+
+The Golgi apparatus modifies, sorts, and packages proteins for secretion.
+
+Lysosomes contain digestive enzymes that break down waste materials.
+
+Chapter 2: Cell Division
+
+Mitosis is the process of cell division that produces two identical daughter cells. The phases are:
+1. Prophase - chromosomes condense
+2. Metaphase - chromosomes align at the equator
+3. Anaphase - sister chromatids separate
+4. Telophase - nuclear membranes reform
+5. Cytokinesis - cytoplasm divides
+
+Meiosis produces four genetically different haploid cells and is used for sexual reproduction.
+
+Key differences between mitosis and meiosis:
+- Mitosis: 1 division, 2 diploid cells, identical offspring
+- Meiosis: 2 divisions, 4 haploid cells, genetic variation
+
+Chapter 3: Photosynthesis
+
+Photosynthesis occurs in chloroplasts and converts light energy to chemical energy.
+
+6CO2 + 6H2O + light -> C6H12O6 + 6O2
+
+The light-dependent reactions occur in the thylakoid membranes and produce ATP and NADPH.
+The Calvin cycle occurs in the stroma and fixes carbon dioxide into glucose.
+
+Factors affecting photosynthesis: light intensity, CO2 concentration, temperature, water availability.
