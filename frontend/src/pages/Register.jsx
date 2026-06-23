@@ -7,6 +7,7 @@ import { Link, Navigate } from 'react-router-dom'
 import { Brain } from 'lucide-react'
 import { useAuth } from '../context/AuthContext'
 import LoadingSpinner from '../components/LoadingSpinner'
+import { getApiErrorMessage } from '../utils/apiError'
 
 export default function Register() {
   const { register, isAuthenticated, loading: authLoading } = useAuth()
@@ -48,8 +49,7 @@ export default function Register() {
       await register(form.email, form.username, form.password)
       window.location.href = '/dashboard'
     } catch (err) {
-      const detail = err.response?.data?.detail
-      setError(typeof detail === 'string' ? detail : 'Registration failed. Please try again.')
+      setError(getApiErrorMessage(err, 'Registration failed. Please try again.'))
     } finally {
       setLoading(false)
     }

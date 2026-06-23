@@ -4,7 +4,9 @@
 
 import axios from 'axios'
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000'
+// In dev, use Vite proxy (/api) so registration works from localhost and LAN IP.
+// Set VITE_API_URL only for production builds pointing at a remote API.
+const API_URL = import.meta.env.VITE_API_URL || '/api'
 
 const api = axios.create({
   baseURL: API_URL,

@@ -7,6 +7,7 @@ import { Link, Navigate, useLocation } from 'react-router-dom'
 import { Brain, Eye, EyeOff } from 'lucide-react'
 import { useAuth } from '../context/AuthContext'
 import LoadingSpinner from '../components/LoadingSpinner'
+import { getApiErrorMessage } from '../utils/apiError'
 
 export default function Login() {
   const { login, isAuthenticated, loading: authLoading } = useAuth()
@@ -38,7 +39,7 @@ export default function Login() {
     try {
       await login(email, password)
     } catch (err) {
-      setError(err.response?.data?.detail || 'Login failed. Please check your credentials.')
+      setError(getApiErrorMessage(err, 'Login failed. Please check your credentials.'))
     } finally {
       setLoading(false)
     }
